@@ -1,0 +1,102 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px ;
+    border-bottom: 2px solid antiquewhite;
+}
+
+.pencarian input {
+  margin-right: 20px;
+}
+
+/* ////////////////////////////// */
+
+.BuatCatatan {
+margin: 0 auto;
+  max-width: 500px;
+  margin-bottom: 48px;
+}
+
+.BuatCatatan input, textarea {
+    display: block;
+    width: 100%;
+}
+.BuatCatatan textarea{
+    min-height: 175px;
+}
+.BuatCatatan button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background-color: transparent;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+/* ////////////////////////////// */
+
+.CatatanList {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.Percatatan {
+  width: 250px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.CatatanList{
+  margin: 40px 0px;
+}
+.content {
+    padding: 12px;
+    flex: 1;
+}
+
+.action{
+    display: flex;
+}
+
+.action button{
+  color: #aaa;
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #aaa;
+  padding: 8px 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+.CatatanTitle{
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.red:hover{
+  background-color: red;
+  color: whitesmoke;
+}
+
+.blue:hover{
+  background-color: yellowgreen ;
+  color: whitesmoke;
+}
+
+.tanggal{
+  font-size: 12px;
+  color: #aaa;
+}
+
+.CatatanBody{
+  margin-top: 15px;
+}
