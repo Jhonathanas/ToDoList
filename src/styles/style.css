@@ -1,0 +1,66 @@
+:root {
+  --primary: #FFE6E6;
+  --primary-variant: #ac88ff;
+  --secondary: #E1AFD1;
+  --background: #AD88C6;
+  --surface: #7469B6;
+  --error: #CF6679;
+  --warning: #F39C12;
+  --on-background: #FFFFFF;
+  --on-background-grey: #c7c7c7;
+  --on-surface: #FFFFFF;
+}
+
+[data-theme="light"] {
+  --background: #DDDDDD;
+  --suface: #FFFFFF;
+  --on-background: #333333;
+  --on-background-grey: #6d6d6d;
+  --on-surface: #333333;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  color: var(--on-background);
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--primary);
+}
+
+/* navbar */
+nav{
+  background-color: var(--secondary);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav button {
+  margin-left: 20px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+
+/* list */
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+
+/* percatatan */
+
+.Percatatan{
+  width: 400px;
+  height: 200px;
+  border: 20px;
+  background-color: #333333;
+}
